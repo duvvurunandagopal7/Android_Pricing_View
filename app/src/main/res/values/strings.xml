@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android Pricing View</string>
+    <string name="for_main_background">for Main Background</string>
+    <string name="for_circle_patterns">For Circle patterns</string>
+    <string name="main_heading">Simple, traffic-based pricing</string>
+    <string name="test_massage">Sign-up for our 30-day trial.\nNo credit card required.</string>
+    <string name="monthly_billing">Monthly Billing</string>
+    <string name="yearly_billing">Yearly Billing</string>
+    <string name="discount_price_percentage">-25%</string>
+    <string name="unlimited_websites">Unlimited Websites</string>
+    <string name="offer_msg_1">100% data ownership</string>
+    <string name="offer_msg_2">Email reports</string>
+    <string name="offer_msg_3">Start my trail</string>
+    <string name="page_views">PAGEVIEWS</string>
+</resources>

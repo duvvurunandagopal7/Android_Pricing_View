@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="SoftCyan">#A5F3EB</color>
+    <color name="StrongCyan">#10D5C2</color>
+    <color name="LightGrayishRed">#FEECE7</color>
+    <color name="LightRed">#FF8C66</color>
+    <color name="PaleBlue">#BDCCFF</color>
+    <color name="White">#FFFFFF</color>
+    <color name="VeryPaleBlue">#FAFBFF</color>
+    <color name="LightGrayishBlue">#EAEEFB</color>
+    <color name="LightGrayishBlueBackground">#CDD7EE</color>
+    <color name="GrayishBlue">#858FAD</color>
+    <color name="DarkDesaturatedBlue">#293356</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="colourPrimary">#6200EE</color>
+
+</resources>

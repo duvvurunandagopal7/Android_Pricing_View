@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/VeryPaleBlue"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/for_main_background"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_bg_pattern" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/for_circle_patterns"
+        android:src="@drawable/ic_pattern_circles" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80sp"
+        android:text="@string/main_heading"
+        android:textColor="@color/DarkDesaturatedBlue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"
+        android:text="@string/test_massage"
+        android:textColor="@color/GrayishBlue"
+        android:textSize="15sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/White"
+        app:cardCornerRadius="20dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/pageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/GrayishBlue"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:max="5"
+            android:min="1"
+            android:progressDrawable="@drawable/seekbar_style"
+            android:thumb="@drawable/custom_thumb"
+
+            />
+
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/DarkDesaturatedBlue"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="180dp">
+
+            <CheckBox
+                android:id="@id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:drawableEnd="@drawable/checkbox_selector"
+                android:focusable="false"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/checkbox"
+                android:text="@string/monthly_billing"
+                android:textColor="@color/GrayishBlue"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@id/yearPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/checkbox"
+                android:text="@string/yearly_billing"
+                android:textColor="@color/GrayishBlue" />
+
+            <TextView
+                android:id="@+id/discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/yearPrice"
+                android:background="@drawable/discount_shape"
+                android:gravity="center"
+                android:text="@string/discount_price_percentage"
+                android:textColor="@color/LightRed"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="240dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="270dp"
+            android:drawableStart="@drawable/ic_icon_check"
+            android:drawablePadding="10dp"
+            android:text="@string/unlimited_websites"
+            android:textColor="@color/GrayishBlue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="300dp"
+            android:drawableStart="@drawable/ic_icon_check"
+            android:drawablePadding="10dp"
+            android:text="@string/offer_msg_1"
+            android:textColor="@color/GrayishBlue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="330dp"
+            android:drawableStart="@drawable/ic_icon_check"
+            android:drawablePadding="10dp"
+            android:text="@string/offer_msg_2"
+            android:textColor="@color/GrayishBlue" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="380dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/man_rope_regular"
+            android:onClick="onButtonClick"
+            android:text="@string/offer_msg_3"
+            android:textAllCaps="false"
+            android:textColor="@color/VeryPaleBlue"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:theme="@style/ButtonBackground" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
+</layout>

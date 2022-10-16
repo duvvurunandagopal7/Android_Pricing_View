@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button_shape.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/checkbox_selector.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/custom_thumb.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/discount_shape.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/discountshape.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_bg_pattern.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_icon_check.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_icon_slider.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_pattern_circles.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/seekbar_style.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/toggle_background_off.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/toggle_background_on.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/toggle_button_off.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/toggle_button_on.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/white_toggle_icon.xml" value="0.1215" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
